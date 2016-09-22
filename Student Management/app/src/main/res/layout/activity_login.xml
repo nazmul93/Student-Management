@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/colorActivityBackground"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.nazmul.studentManagement.LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="User Name"
+        android:padding="2dp"
+        android:background="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/userNameETL"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:ems="0"
+        android:padding="2dp"
+        android:background="@color/colorWhite"
+        android:id="@+id/passwordETL"
+        android:layout_marginBottom="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textColor="@drawable/text_color"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="login" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep me login"
+        android:id="@+id/checkbox"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@drawable/text_color"
+        android:textSize="18sp"
+        android:onClick="signUp"
+        android:id="@+id/sinUpTV"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forget Password"
+        android:textColor="@drawable/text_color"
+        android:textSize="14sp"
+        android:onClick="forgetPassword"
+        android:id="@+id/forgetPassword" />
+
+</LinearLayout>

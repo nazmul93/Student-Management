@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="form_text_size">26sp</dimen>
+    <dimen name="ET_Padding">2dp</dimen>
+    <dimen name="StudentResultMarginBottom">10dp</dimen>
+    <dimen name="StudentResultMainLayoutMargin">10dp</dimen>
+
+    <dimen name="StudentRegistrationMarginBottom">1dp</dimen>
+    <dimen name="StudentRegistrationPaddingET">2dp</dimen>
+</resources>

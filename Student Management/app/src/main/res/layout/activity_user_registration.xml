@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#41A1FF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.nazmul.studentManagement.UserRegistrationActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:padding="2dp"
+        android:hint="User Name"
+        android:id="@+id/userNameETR"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:padding="2dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/passwordETR"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:padding="2dp"
+        android:hint="Phone Number"
+        android:id="@+id/phoneNumberETR"
+        android:inputType="phone"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:padding="2dp"
+        android:hint="Email Number"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailNumberETR"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:onClick="register"/>
+
+</LinearLayout>
